@@ -25,7 +25,7 @@ class Ball{
         
 
       if(dist(x, y, this.x, this.y) < this.r/2){
-        // fill(0, 100, 130);
+        // fill("rgba(0, 100, 130, 220)");
         stroke(0, 100, 130);
         this.env.play();
  
